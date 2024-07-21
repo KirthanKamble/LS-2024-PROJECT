@@ -13,8 +13,6 @@ This is a simple Brainfuck interpreter written in C. Brainfuck is a minimalistic
   - `,`: Accept one byte of input, storing its value in the byte at the data pointer.
   - `[`: Jump forward to the command after the matching `]` if the byte at the data pointer is zero.
   - `]`: Jump back to the command after the matching `[` if the byte at the data pointer is nonzero.
-- Custom `memfill` command:
-  - `#<number>`: Fill the current memory cell with the specified value (e.g., `#65` fills the cell with `65`).
 
 ## How It Works
 
